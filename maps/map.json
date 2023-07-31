@@ -1,0 +1,117 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "YouCode",
+        "type": "ecole",
+        "description" : "YouCode est une école de programmation informatique."
+      },
+      "geometry": {
+        "coordinates": [
+          -8.522072349645327,
+          32.246463155962985
+        ],
+        "type": "Point"
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Royale Cafe",
+        "type": "cafe",
+        "description": "Good wifi, good service"
+      },
+      "geometry": {
+        "coordinates": [
+          -8.53818638029972,
+          32.24071641729785
+        ],
+        "type": "Point"
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Black Milk",
+        "type": "cafe",
+        "description": "Good wifi, good service"
+      },
+      "geometry": {
+        "coordinates": [
+          -8.53822011360657,
+          32.24059872226479
+        ],
+        "type": "Point"
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cafe Roma",
+        "type": "cafe",
+        "description": "Good wifi, good service"
+      },
+      "geometry": {
+        "coordinates": [
+          -8.539233065472843,
+          32.24023766975627
+        ],
+        "type": "Point"
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pharmacie Ahmar",
+        "type": "pharmacie",
+        "description": "Pharmacie Ahmar"
+      },
+      "geometry": {
+        "coordinates": [
+          -8.535479947538334,
+          32.24186236121062
+        ],
+        "type": "Point"
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pharmacie Moderne",
+        "type": "pharmacie",
+        "description": "Parmacie annour"
+      },
+      "geometry": {
+        "coordinates": [
+          -8.537200084710776,
+          32.24160244450522
+        ],
+        "type": "Point"
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pharmacie Annour",
+        "type": "pharmacie",
+        "description": "Parmacie annour"
+      },
+      "geometry": {
+        "coordinates": [
+          -8.532665860125547,
+          32.237039765623194
+        ],
+        "type": "Point"
+      },
+      "id": 8
+    }
+  ]
+}
