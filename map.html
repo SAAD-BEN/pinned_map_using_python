@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_242b9d3fdbc50c0159887e16327bfb91 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_242b9d3fdbc50c0159887e16327bfb91" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_242b9d3fdbc50c0159887e16327bfb91 = L.map(
+                "map_242b9d3fdbc50c0159887e16327bfb91",
+                {
+                    center: [32.24122, -8.53472],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a2dd0b9b752d1ea9972d24fbeddf4321 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_242b9d3fdbc50c0159887e16327bfb91);
+        
+    
+            var marker_5c55c4119def0a48167b7b2335b4d9fc = L.marker(
+                [32.246463155962985, -8.522072349645327],
+                {}
+            ).addTo(map_242b9d3fdbc50c0159887e16327bfb91);
+        
+    
+            var icon_35127605bfa2c88fd419f4c53191c3e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5c55c4119def0a48167b7b2335b4d9fc.setIcon(icon_35127605bfa2c88fd419f4c53191c3e3);
+        
+    
+        var popup_53e5c84fffc61683d761ba7eed83277d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68773664ee6fbaf69c4c76069a2026c6 = $(`<div id="html_68773664ee6fbaf69c4c76069a2026c6" style="width: 100.0%; height: 100.0%;">         <b>YouCode</b><br>YouCode est une Ã©cole de programmation informatique.<br><button id='myButton' onclick='         console.log("YouCode clicked");         console.log("Location 1: [-8.53818638029972, 32.24071641729785]");         console.log("Location 2: [-8.53822011360657, 32.24059872226479]");         myCustomFunction("YouCode");     '>Click me</button>     </div>`)[0];
+                popup_53e5c84fffc61683d761ba7eed83277d.setContent(html_68773664ee6fbaf69c4c76069a2026c6);
+            
+        
+
+        marker_5c55c4119def0a48167b7b2335b4d9fc.bindPopup(popup_53e5c84fffc61683d761ba7eed83277d)
+        ;
+
+        
+    
+    
+            var marker_b916309b6ac7c2c634fc1dd06b371b75 = L.marker(
+                [32.24071641729785, -8.53818638029972],
+                {}
+            ).addTo(map_242b9d3fdbc50c0159887e16327bfb91);
+        
+    
+            var icon_b9d3f77ec998d65e1d41d438f4038c41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "music", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b916309b6ac7c2c634fc1dd06b371b75.setIcon(icon_b9d3f77ec998d65e1d41d438f4038c41);
+        
+    
+        var popup_f1c8cde30117cc389834cdc982e786ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9af4184de0eb8cd0e98a778c78b60c67 = $(`<div id="html_9af4184de0eb8cd0e98a778c78b60c67" style="width: 100.0%; height: 100.0%;">         <b>Royale Cafe</b><br>Good wifi, good service<br><button id='myButton' onclick='         console.log("Royale Cafe clicked");         console.log("Location 1: [-8.53818638029972, 32.24071641729785]");         console.log("Location 2: [-8.53822011360657, 32.24059872226479]");         myCustomFunction("Royale Cafe");     '>Click me</button>     </div>`)[0];
+                popup_f1c8cde30117cc389834cdc982e786ca.setContent(html_9af4184de0eb8cd0e98a778c78b60c67);
+            
+        
+
+        marker_b916309b6ac7c2c634fc1dd06b371b75.bindPopup(popup_f1c8cde30117cc389834cdc982e786ca)
+        ;
+
+        
+    
+    
+            var marker_f6e9821d80198df4ca6c32331ceef288 = L.marker(
+                [32.24059872226479, -8.53822011360657],
+                {}
+            ).addTo(map_242b9d3fdbc50c0159887e16327bfb91);
+        
+    
+            var icon_cc03af2bedee0e40e795f5f2e9c34be4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "music", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f6e9821d80198df4ca6c32331ceef288.setIcon(icon_cc03af2bedee0e40e795f5f2e9c34be4);
+        
+    
+        var popup_d3d56f93fc187bf8e541d7ffb123bd32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd79739b2058171a49a9e21763376624 = $(`<div id="html_fd79739b2058171a49a9e21763376624" style="width: 100.0%; height: 100.0%;">         <b>Black Milk</b><br>Good wifi, good service<br><button id='myButton' onclick='         console.log("Black Milk clicked");         console.log("Location 1: [-8.53818638029972, 32.24071641729785]");         console.log("Location 2: [-8.53822011360657, 32.24059872226479]");         myCustomFunction("Black Milk");     '>Click me</button>     </div>`)[0];
+                popup_d3d56f93fc187bf8e541d7ffb123bd32.setContent(html_fd79739b2058171a49a9e21763376624);
+            
+        
+
+        marker_f6e9821d80198df4ca6c32331ceef288.bindPopup(popup_d3d56f93fc187bf8e541d7ffb123bd32)
+        ;
+
+        
+    
+    
+            var marker_e3d70747617fac85d7dd19ced1bb10be = L.marker(
+                [32.24023766975627, -8.539233065472843],
+                {}
+            ).addTo(map_242b9d3fdbc50c0159887e16327bfb91);
+        
+    
+            var icon_06ead6499162c21c431836ebf74937a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "music", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e3d70747617fac85d7dd19ced1bb10be.setIcon(icon_06ead6499162c21c431836ebf74937a1);
+        
+    
+        var popup_b1620ac94092c111f41f2b86078c7fa0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edd94f83db717479cba2f215866a7ba8 = $(`<div id="html_edd94f83db717479cba2f215866a7ba8" style="width: 100.0%; height: 100.0%;">         <b>Cafe Roma</b><br>Good wifi, good service<br><button id='myButton' onclick='         console.log("Cafe Roma clicked");         console.log("Location 1: [-8.53818638029972, 32.24071641729785]");         console.log("Location 2: [-8.53822011360657, 32.24059872226479]");         myCustomFunction("Cafe Roma");     '>Click me</button>     </div>`)[0];
+                popup_b1620ac94092c111f41f2b86078c7fa0.setContent(html_edd94f83db717479cba2f215866a7ba8);
+            
+        
+
+        marker_e3d70747617fac85d7dd19ced1bb10be.bindPopup(popup_b1620ac94092c111f41f2b86078c7fa0)
+        ;
+
+        
+    
+    
+            var marker_5b3be4ab136a1cefb740062df3d3b106 = L.marker(
+                [32.24186236121062, -8.535479947538334],
+                {}
+            ).addTo(map_242b9d3fdbc50c0159887e16327bfb91);
+        
+    
+            var icon_d6b8489edb54aaf3a192f06ab65dba9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5b3be4ab136a1cefb740062df3d3b106.setIcon(icon_d6b8489edb54aaf3a192f06ab65dba9f);
+        
+    
+        var popup_9f835887cc779c14e9d14d961567e82b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_558d1b88a2afb7b5ecef6aa5650b5f0b = $(`<div id="html_558d1b88a2afb7b5ecef6aa5650b5f0b" style="width: 100.0%; height: 100.0%;">         <b>Pharmacie Ahmar</b><br>Pharmacie Ahmar<br><button id='myButton' onclick='         console.log("Pharmacie Ahmar clicked");         console.log("Location 1: [-8.53818638029972, 32.24071641729785]");         console.log("Location 2: [-8.53822011360657, 32.24059872226479]");         myCustomFunction("Pharmacie Ahmar");     '>Click me</button>     </div>`)[0];
+                popup_9f835887cc779c14e9d14d961567e82b.setContent(html_558d1b88a2afb7b5ecef6aa5650b5f0b);
+            
+        
+
+        marker_5b3be4ab136a1cefb740062df3d3b106.bindPopup(popup_9f835887cc779c14e9d14d961567e82b)
+        ;
+
+        
+    
+    
+            var marker_e9a4c3ae06303b270b08542026090d94 = L.marker(
+                [32.24160244450522, -8.537200084710776],
+                {}
+            ).addTo(map_242b9d3fdbc50c0159887e16327bfb91);
+        
+    
+            var icon_ed456ce34cdd447d03e647e2828daca2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e9a4c3ae06303b270b08542026090d94.setIcon(icon_ed456ce34cdd447d03e647e2828daca2);
+        
+    
+        var popup_88fd810d1cdce756e8fce3403c4c409b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0276eafaadc8e23616482f356f264fdb = $(`<div id="html_0276eafaadc8e23616482f356f264fdb" style="width: 100.0%; height: 100.0%;">         <b>Pharmacie Moderne</b><br>Parmacie annour<br><button id='myButton' onclick='         console.log("Pharmacie Moderne clicked");         console.log("Location 1: [-8.53818638029972, 32.24071641729785]");         console.log("Location 2: [-8.53822011360657, 32.24059872226479]");         myCustomFunction("Pharmacie Moderne");     '>Click me</button>     </div>`)[0];
+                popup_88fd810d1cdce756e8fce3403c4c409b.setContent(html_0276eafaadc8e23616482f356f264fdb);
+            
+        
+
+        marker_e9a4c3ae06303b270b08542026090d94.bindPopup(popup_88fd810d1cdce756e8fce3403c4c409b)
+        ;
+
+        
+    
+    
+            var marker_b471a56448bc8b7b5d679553954873d5 = L.marker(
+                [32.237039765623194, -8.532665860125547],
+                {}
+            ).addTo(map_242b9d3fdbc50c0159887e16327bfb91);
+        
+    
+            var icon_d99a5584e53472a5ab308775bca662c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b471a56448bc8b7b5d679553954873d5.setIcon(icon_d99a5584e53472a5ab308775bca662c1);
+        
+    
+        var popup_0f2fe186c89fdfe11b60af915fcca2cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47ce64c0bf4b908173e4643eddd551f1 = $(`<div id="html_47ce64c0bf4b908173e4643eddd551f1" style="width: 100.0%; height: 100.0%;">         <b>Pharmacie Annour</b><br>Parmacie annour<br><button id='myButton' onclick='         console.log("Pharmacie Annour clicked");         console.log("Location 1: [-8.53818638029972, 32.24071641729785]");         console.log("Location 2: [-8.53822011360657, 32.24059872226479]");         myCustomFunction("Pharmacie Annour");     '>Click me</button>     </div>`)[0];
+                popup_0f2fe186c89fdfe11b60af915fcca2cd.setContent(html_47ce64c0bf4b908173e4643eddd551f1);
+            
+        
+
+        marker_b471a56448bc8b7b5d679553954873d5.bindPopup(popup_0f2fe186c89fdfe11b60af915fcca2cd)
+        ;
+
+        
+    
+    
+                function getLatLng(e){
+                    var lat = e.latlng.lat.toFixed(6),
+                        lng = e.latlng.lng.toFixed(6);
+                    var txt = lat + "," + lng;
+                    navigator.clipboard.writeText(txt);
+                    alert("Copied to clipboard : \n    " + txt);
+                    };
+                map_242b9d3fdbc50c0159887e16327bfb91.on('click', getLatLng);
+            
+    
+            var layer_control_041195738aa1b97c415d13c3271c97ef = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_a2dd0b9b752d1ea9972d24fbeddf4321,
+                },
+                overlays :  {
+                },
+            };
+            L.control.layers(
+                layer_control_041195738aa1b97c415d13c3271c97ef.base_layers,
+                layer_control_041195738aa1b97c415d13c3271c97ef.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_242b9d3fdbc50c0159887e16327bfb91);
+        
+</script>
+</html>
